@@ -2,7 +2,7 @@ name: Bug Report
 labels: Bug
 assignees: Voxel6
 description: File a bug report about an occurring problem.
-title: "[BUG]"
+title: "[BUG] "
 body:
   - type: markdown
     attributes:
@@ -29,9 +29,7 @@ body:
       label: Reproduction Steps
       description: Provide steps to reproduce the problem/behavior. If you can't, leave the box blank.
       placeholder: |
-                ex.
-
-                Steps to Reproduce:
+                ex. Steps to Reproduce:
                 1. Build a house.
                 2. Jump up and down.
                 3. Start flying into the air?
@@ -49,7 +47,7 @@ body:
     id: logs
     attributes:
       label: Log Output
-      description: If applicable, provide any relevant log information that may help explain or provide info about the problem. You can either paste your log info into the text box or copy and paste the log file. If you can't, leave the box blank.
+      description: If applicable, provide any relevant log information that may help explain or provide info about the problem. You can either paste your log info into the box below or copy and paste the log file into the "Additional Context" section. If you can't, leave the box blank.
       render: shell
   - type: dropdown
     id: modpack-version
@@ -57,27 +55,27 @@ body:
       label: Modpack Version
       description: Provide the version of the modpack you were using when the problem occurred.
       options:
-                - "v0.2.0 Alpha"
-                - "v0.2.1 Alpha"
-                - "v0.3.0 Alpha"
-                - "v1.0.0 Beta"
-                - "v1.1.0 Beta"
-                - "v1.1.1 Beta"
-                - "v1.2.0 Beta"
-                - "v1.2.1 Beta"
-                - "v1.2.2 Beta"
-                - "v1.2.3 Beta"
-                - "v1.3.0 Beta"
-                - "v1.4.0 Beta"
-                - "v1.4.1 Beta"
-                - "v2.0.0 Release"
-                - "v2.0.1 Release"
-                - "v2.0.2 Release"
-                - "v2.1.0 Release"
-                - "v2.2.0 Beta"
-                - "v2.2.1 Beta"
-                - "v2.2.2 Beta"
                 - "v3.0.0 Release (latest)"
+                - "v2.2.2 Beta"
+                - "v2.2.1 Beta"
+                - "v2.2.0 Beta"
+                - "v2.1.0 Release"
+                - "v2.0.2 Release"
+                - "v2.0.1 Release"
+                - "v2.0.0 Release"
+                - "v1.4.1 Beta"
+                - "v1.4.0 Beta"
+                - "v1.3.0 Beta"
+                - "v1.2.3 Beta"
+                - "v1.2.2 Beta"
+                - "v1.2.1 Beta"
+                - "v1.2.0 Beta"
+                - "v1.1.1 Beta"
+                - "v1.1.0 Beta"
+                - "v1.0.0 Beta"
+                - "v0.3.0 Alpha"
+                - "v0.2.1 Alpha"
+                - "v0.2.0 Alpha"
     validations:
       required: true
   - type: textarea
