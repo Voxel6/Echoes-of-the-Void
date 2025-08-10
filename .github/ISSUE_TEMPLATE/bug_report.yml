@@ -2,7 +2,7 @@ name: Bug Report
 labels: Bug
 assignees: Voxel6
 description: File a bug report about an occurring problem.
-title: [BUG]
+title: " [BUG] "
 body:
   - type: markdown
     attributes:
