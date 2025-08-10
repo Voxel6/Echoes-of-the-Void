@@ -48,6 +48,36 @@ body:
     attributes:
       label: Log Output
       description: If applicable, provide any relevant log information that may help explain or provide info about the problem. You can either paste your log info into the box below or copy and paste the log file into the "Additional Context" section. If you can't, leave the box blank.
+      placeholder: |
+        ex.
+        [11:16:24] [Server thread/INFO]: [Voxel_6: Gave 43 [Spruce Planks] to Voxel_6]
+        [11:16:24] [Render thread/INFO]: [System] [CHAT] Gave 43 [Spruce Planks] to Voxel_6
+        [11:16:24] [Render thread/INFO]: Loaded 236 advancements
+        [11:17:05] [Server thread/INFO]: Voxel_6 was caught by Necromancer's fangs
+        [11:17:05] [Render thread/INFO]: [System] [CHAT] Voxel_6 was caught by Necromancer's fangs
+        [11:17:07] [Render thread/INFO]: Minimap updated server level id: -2091931884 for world ResourceKey[minecraft:dimension / minecraft:overworld]
+        [11:17:07] [Render thread/INFO]: Received config from server
+        [11:17:07] [Server thread/INFO]: Client of Voxel_6 accepted server config.
+        [11:17:19] [Server thread/INFO]: [Voxel_6: Set own game mode to Creative Mode]
+        [11:17:19] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+        [11:17:32] [Server thread/INFO]: [Voxel_6: Summoned new Wolf]
+        [11:17:32] [Render thread/INFO]: [System] [CHAT] Summoned new Wolf
+        [11:17:34] [Server thread/INFO]: [Voxel_6: Summoned new Wolf]
+        [11:17:34] [Render thread/INFO]: [System] [CHAT] Summoned new Wolf
+        [11:17:37] [Server thread/INFO]: [Voxel_6: Summoned new Wolf]
+        [11:17:37] [Render thread/INFO]: [System] [CHAT] Summoned new Wolf
+        [11:18:15] [Server thread/INFO]: Voxel_6 has completed the challenge [Cover me in... Wings?]
+        [11:18:15] [Render thread/INFO]: [System] [CHAT] Voxel_6 has completed the challenge [Cover me in... Wings?]
+        [11:18:15] [Render thread/INFO]: Loaded 243 advancements
+        [11:18:26] [Server thread/INFO]: Voxel_6 has reached the goal [Sky's the Limit]
+        [11:18:26] [Render thread/INFO]: [System] [CHAT] Voxel_6 has reached the goal [Sky's the Limit]
+        [11:18:27] [Render thread/INFO]: Loaded 250 advancements
+        [11:18:47] [Server thread/INFO]: [Not Secure] <Voxel_6> woah
+        [11:18:47] [Render thread/INFO]: [CHAT] <Voxel_6> woah
+        [11:18:58] [Render thread/INFO]: Loaded 281 advancements
+        [11:19:18] [Server thread/INFO]: [Not Secure] <Voxel_6> im flying
+        [11:19:18] [Render thread/INFO]: [CHAT] <Voxel_6> im flying
+        [11:19:21] [Server thread/INFO]: Saving and pausing game...
       render: shell
   - type: dropdown
     id: modpack-version
