@@ -5,7 +5,6 @@ body:
   - type: markdown
     attributes:
       value: Thank you for putting in the time to file a bug report!
-      description: Provide clear and concise information about what happened and what the problem may be.
   - type: textarea
     id: what-happened
     attributes:
