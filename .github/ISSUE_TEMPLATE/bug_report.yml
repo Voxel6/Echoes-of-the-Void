@@ -4,7 +4,7 @@ assignees: Voxel6
 body:
   - type: markdown
     attributes:
-      description: Thank you for putting in time to file a bug report!
+      description: Thank you for putting in the time to file a bug report!
   - type: textarea
     id: what-happened
     attributes:
