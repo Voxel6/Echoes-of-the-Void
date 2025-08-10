@@ -30,9 +30,10 @@ body:
     id: reproduction-steps
     attributes:
       label: Reproduction Steps
-      description: Provide steps to reproduce the problem/behavior. If you can't, leave the box blank.
+      description: Provide steps to reproduce the problem/behavior. If you can't, leave this text box blank.
       placeholder: |
-                ex. Steps to Reproduce:
+                ex. 
+                Steps to Reproduce:
                 1. Build a house.
                 2. Jump up and down.
                 3. Start flying into the air?
@@ -43,7 +44,7 @@ body:
     id: screenshots
     attributes:
       label: Screenshots
-      description: If applicable, provide any screenshots that may help explain or provide info about the problem. If you can't, leave the box blank.
+      description: If applicable, provide any screenshots that may help explain or provide info about the problem. If you can't, leave this text box blank.
       placeholder: ex. I have a screenshot of what I was wearing before I started flying and a screenshot of me actively flying.
     validations:
       required: false
@@ -52,7 +53,7 @@ body:
     id: logs
     attributes:
       label: Log Output
-      description: If applicable, provide any relevant log information that may help explain or provide info about the problem. You can either paste your log info into the box below or copy and paste the log file into the "Additional Context" section. If you can't, leave the box blank.
+      description: If applicable, provide any relevant log information that may help explain or provide info about the problem. You can either paste your log info into the box below or copy and paste the log file into the "Additional Context" section. For additional help, log files are typically found in your game's "logs" folder. If you can't, leave this text box blank.
       placeholder: |
         ex.
         [11:16:24] [Server thread/INFO]: [Voxel_6: Gave 43 [Spruce Planks] to Voxel_6]
@@ -84,6 +85,8 @@ body:
         [11:19:18] [Render thread/INFO]: [CHAT] <Voxel_6> im flying
         [11:19:21] [Server thread/INFO]: Saving and pausing game...
       render: shell
+    validations:
+      required: false
       
   - type: dropdown
     id: modpack-version
@@ -119,7 +122,7 @@ body:
     id: additional-context
     attributes:
       label: Additional Context
-      description: Provide any additional context relating to the problem or info that could aid in solving the problem here. If you can't, leave the box blank.
+      description: Provide any additional context relating to the problem or info that could aid in solving the problem here. If you can't, leave this text box blank.
       placeholder: ex. I was playing in Creative mode when the problem occurred.
     validations:
       required: false
