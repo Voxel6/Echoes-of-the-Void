@@ -1,7 +1,8 @@
 name: Bug Report
 labels: Bug
 assignees: Voxel6
-description: test
+description: File a bug report about an occurring problem.
+title: [BUG]
 body:
   - type: markdown
     attributes:
@@ -19,23 +20,29 @@ body:
     attributes:
       label: Expected Behavior
       description: Provide clear and concise information about what you expected to happen.
-      placeholder: ex. I expected that my death should not have caused my pets to mysteriously die.
+      placeholder: ex. My death should not have caused my pets to mysteriously die. That is what I expected.
     validations:
       required: true
   - type: textarea
     id: reproduction-steps
     attributes:
       label: Reproduction Steps
-      description: Provide steps to reproduce the problem/behavior. If you cant, leave the box blank.
-      placeholder: test
+      description: Provide steps to reproduce the problem/behavior. If you can't, leave the box blank.
+      placeholder:
+      ex.
+      
+      Steps to Reproduce
+      1. Have pets.
+      2. Die with your pets following you.
+      3. Your pets would mysteriously die when you die.
     validations:
       required: false
   - type: textarea
     id: screenshots
     attributes:
       label: Screenshots
-      description: If applicable, provide any screenshots that may help explain or provide info about the problem.
-      placeholder: ex. This picture shows what I did before my death, and this other picture shows my pets missing afterwards. If you can't, leave the box blank.
+      description: If applicable, provide any screenshots that may help explain or provide info about the problem. If you can't, leave the box blank.
+      placeholder: ex. This picture shows what I did before my death, and this other picture shows my pets missing afterwards.
     validations:
       required: false
   - type: textarea
@@ -77,6 +84,6 @@ body:
     id: additional-context
     attributes:
       label: Additional Context
-      description: Provide any additional context relating to the problem here.
+      description: Provide any additional context relating to the problem here. If you can't, leave the box blank.
     validations:
       required: false
