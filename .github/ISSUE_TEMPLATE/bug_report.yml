@@ -1,0 +1,87 @@
+name: Bug Report
+about: File a bug report about an occurring problem.
+title: [BUG]
+labels: Bug
+assignees: Voxel6
+body:
+  - type: markdown
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What Happened?
+      description: Provide clear and concise information about what happened and what the problem may be.
+      placeholder: ex. I died, and my pets were randomly killed after.
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: Provide clear and concise information about what you expected to happen.
+      placeholder: ex. I expected that my death should not have caused my pets to mysteriously die.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Reproduction Steps
+      description: "Provide steps to reproduce the problem/behavior. If you can't, leave the box blank."
+      placeholder: 
+      ex.
+      
+      Steps to reproduce:
+      1. Have pets.
+      2. Die with your pets following you.
+      3. Your pets would mysteriously die when you die.
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, provide any screenshots that may help explain or provide info about the problem.
+      placeholder: ex. This picture shows what I did before my death, and this other picture shows my pets missing afterwards. If you can't, leave the box blank.
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log Output
+      description: If applicable, provide any relevant log information that may help explain or provide info about the problem. You can either paste your log info into the text box or copy and paste the log file. If you can't, leave the box blank.
+      render: shell
+  - type: dropdown
+    id: modpack-version
+    attributes:
+      label: Modpack Version
+      description: Provide the version of the modpack you were using when the problem occurred.
+      options:
+                - "v0.2.0 Alpha"
+                - "v0.2.1 Alpha"
+                - "v0.3.0 Alpha"
+                - "v1.0.0 Beta"
+                - "v1.1.0 Beta"
+                - "v1.1.1 Beta"
+                - "v1.2.0 Beta"
+                - "v1.2.1 Beta"
+                - "v1.2.2 Beta"
+                - "v1.2.3 Beta"
+                - "v1.3.0 Beta"
+                - "v1.4.0 Beta"
+                - "v1.4.1 Beta"
+                - "v2.0.0 Release"
+                - "v2.0.1 Release"
+                - "v2.0.2 Release"
+                - "v2.1.0 Release"
+                - "v2.2.0 Beta"
+                - "v2.2.1 Beta"
+                - "v2.2.2 Beta"
+                - "v3.0.0 Release (latest)"
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Provide any additional context relating to the problem here.
+    validations:
+      required: false
