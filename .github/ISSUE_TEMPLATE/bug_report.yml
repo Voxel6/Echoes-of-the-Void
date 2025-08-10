@@ -2,7 +2,7 @@ name: Bug Report
 labels: Bug
 assignees: Voxel6
 description: File a bug report about an occurring problem.
-title: " [BUG] "
+title: "[BUG]"
 body:
   - type: markdown
     attributes:
@@ -12,7 +12,7 @@ body:
     attributes:
       label: What Happened?
       description: Provide clear and concise information about what happened and what the problem may be.
-      placeholder: Type here...
+      placeholder: ex. I was jumping around inside my house when all of a sudden I started flying.
     validations:
       required: true
   - type: textarea
@@ -20,7 +20,7 @@ body:
     attributes:
       label: Expected Behavior
       description: Provide clear and concise information about what you expected to happen.
-      placeholder: Type here...
+      placeholder: ex. I expected to continue jumping and landing on the ground, but instead I was floating out of the window.
     validations:
       required: true
   - type: textarea
@@ -28,7 +28,13 @@ body:
     attributes:
       label: Reproduction Steps
       description: Provide steps to reproduce the problem/behavior. If you can't, leave the box blank.
-      placeholder: Type here...
+      placeholder: |
+                ex.
+
+                Steps to Reproduce:
+                1. Build a house.
+                2. Jump up and down.
+                3. Start flying into the air?
     validations:
       required: false
   - type: textarea
@@ -36,7 +42,7 @@ body:
     attributes:
       label: Screenshots
       description: If applicable, provide any screenshots that may help explain or provide info about the problem. If you can't, leave the box blank.
-      placeholder: Drop files here...
+      placeholder: ex. I have a screenshot of what I was wearing before I started flying and a screenshot of me actively flying.
     validations:
       required: false
   - type: textarea
@@ -79,6 +85,6 @@ body:
     attributes:
       label: Additional Context
       description: Provide any additional context relating to the problem here. If you can't, leave the box blank.
-      placeholder: Type here...
+      placeholder: ex. I was playing in Creative mode when the problem occurred.
     validations:
       required: false
