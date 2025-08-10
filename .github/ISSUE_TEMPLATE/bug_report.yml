@@ -25,7 +25,7 @@ body:
     id: reproduction-steps
     attributes:
       label: Reproduction Steps
-      description: "Provide steps to reproduce the problem/behavior. If you can't, leave the box blank."
+      description: Provide steps to reproduce the problem/behavior. If you cant, leave the box blank.
       placeholder: test
     validations:
       required: false
