@@ -29,7 +29,7 @@ body:
       placeholder: 
       ex.
       
-      Steps to reproduce:
+      Steps to reproduce
       1. Have pets.
       2. Die with your pets following you.
       3. Your pets would mysteriously die when you die.
