@@ -28,8 +28,7 @@ body:
     attributes:
       label: Reproduction Steps
       description: Provide steps to reproduce the problem/behavior. If you can't, leave the box blank.
-      placeholder:
-      ex.
+      placeholder: ex.
       
       Steps to Reproduce
       1. Have pets.
