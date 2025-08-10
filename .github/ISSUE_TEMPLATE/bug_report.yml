@@ -28,10 +28,11 @@ body:
     attributes:
       label: Reproduction Steps
       description: Provide steps to reproduce the problem/behavior. If you can't, leave the box blank.
-      placeholder: ex.
-      1. Have pets.
-      2. Die with your pets following you.
-      3. Your pets would mysteriously die when you die.
+      placeholder: |
+                1.
+                2.
+                3.
+                ...
     validations:
       required: false
   - type: textarea
