@@ -7,6 +7,7 @@ body:
   - type: markdown
     attributes:
       value: Thank you for putting in the time to file a bug report!
+      
   - type: textarea
     id: what-happened
     attributes:
@@ -15,6 +16,7 @@ body:
       placeholder: ex. I was jumping around inside my house when all of a sudden I started flying.
     validations:
       required: true
+      
   - type: textarea
     id: expected-behavior
     attributes:
@@ -23,6 +25,7 @@ body:
       placeholder: ex. I expected to continue jumping and landing on the ground, but instead I was floating out of the window.
     validations:
       required: true
+      
   - type: textarea
     id: reproduction-steps
     attributes:
@@ -35,6 +38,7 @@ body:
                 3. Start flying into the air?
     validations:
       required: false
+      
   - type: textarea
     id: screenshots
     attributes:
@@ -43,6 +47,7 @@ body:
       placeholder: ex. I have a screenshot of what I was wearing before I started flying and a screenshot of me actively flying.
     validations:
       required: false
+      
   - type: textarea
     id: logs
     attributes:
@@ -79,6 +84,7 @@ body:
         [11:19:18] [Render thread/INFO]: [CHAT] <Voxel_6> im flying
         [11:19:21] [Server thread/INFO]: Saving and pausing game...
       render: shell
+      
   - type: dropdown
     id: modpack-version
     attributes:
@@ -108,6 +114,7 @@ body:
                 - "v0.2.0 Alpha"
     validations:
       required: true
+      
   - type: textarea
     id: additional-context
     attributes:
@@ -116,3 +123,16 @@ body:
       placeholder: ex. I was playing in Creative mode when the problem occurred.
     validations:
       required: false
+      
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Conditions
+      description: Check the boxes below to confirm your submission. If a box does not meet your condition, do not check it.
+      options:
+        - label: I have searched the issue tracker and confirmed that my issue has not already been reported.
+          required: true
+        - label: I have verified that, if not using the latest version, my problem hasn't been fixed. I recognize that if my problem has been fixed in a newer version of the modpack, my issue will be closed.
+          required: true
+        - label: I have verified I have not modified the modpack in any way by adding/removing/changing mods, resource packs, data packs, and/or config files. If I have, this must be mentioned in "Additional Context."
+          required: true
