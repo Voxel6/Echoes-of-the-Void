@@ -12,8 +12,7 @@ body:
     id: logs
     attributes:
       label: Crash Report File & latest.log
-      description: Provide any relevant log information that may help explain or provide info about the crash. You can either paste your log info into the box below or copy and paste the crash report and latest.log file into the "Additional Context" section. 
-For additional help, your crash report file can be found in your game's "crash-reports" folder. Your latest.log file is found in your game's "logs" folder. 
+      description: Provide any relevant log information that may help explain or provide info about the crash. You can either paste your log info into the box below or copy and paste the crash report and latest.log file into the "Additional Context" section. For additional help, your crash report file can be found in your game's "crash-reports" folder. Your latest.log file is found in your game's "logs" folder. 
       placeholder: |
         ex.
         ---- Minecraft Crash Report ----
